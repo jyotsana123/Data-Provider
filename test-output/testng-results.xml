@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-25T17:09:39 IST" name="Default suite" finished-at="2023-05-25T17:10:54 IST" duration-ms="74723">
+    <groups>
+    </groups>
+    <test started-at="2023-05-25T17:09:39 IST" name="Default test" finished-at="2023-05-25T17:10:54 IST" duration-ms="74723">
+      <class name="Tests.Login">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.Login@5677323c]" started-at="2023-05-25T17:09:40 IST" name="launchApplication" finished-at="2023-05-25T17:10:07 IST" duration-ms="26953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="login(java.util.HashMap)[pri:0, instance:Tests.Login@5677323c]" started-at="2023-05-25T17:10:07 IST" name="login" data-provider="getData" finished-at="2023-05-25T17:10:08 IST" duration-ms="1185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.Login@5677323c]" started-at="2023-05-25T17:10:08 IST" name="launchApplication" finished-at="2023-05-25T17:10:19 IST" duration-ms="10840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="login(java.util.HashMap)[pri:0, instance:Tests.Login@5677323c]" started-at="2023-05-25T17:10:19 IST" name="login" data-provider="getData" finished-at="2023-05-25T17:10:20 IST" duration-ms="849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=jshdshd, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.Login@5677323c]" started-at="2023-05-25T17:10:20 IST" name="launchApplication" finished-at="2023-05-25T17:10:40 IST" duration-ms="20562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="login(java.util.HashMap)[pri:0, instance:Tests.Login@5677323c]" started-at="2023-05-25T17:10:40 IST" name="login" data-provider="getData" finished-at="2023-05-25T17:10:42 IST" duration-ms="1867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=jsnjaj, email=shdhad}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tests.Login@5677323c]" started-at="2023-05-25T17:10:42 IST" name="launchApplication" finished-at="2023-05-25T17:10:53 IST" duration-ms="11190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="login(java.util.HashMap)[pri:0, instance:Tests.Login@5677323c]" started-at="2023-05-25T17:10:53 IST" name="login" data-provider="getData" finished-at="2023-05-25T17:10:54 IST" duration-ms="521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=, email=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Tests.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
